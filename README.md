@@ -1,6 +1,6 @@
 # embedded_android
 
-##Android Window
+## Android Window
   * A window is a Rectangular area which has aone view heirarchy.
   * it has single surafce.
   * A window is basically like you think of a window on the desktop. It has a single Surface in which the contents of the window is rendered. 
@@ -9,23 +9,23 @@
  
  
  
-##Surface
+## Surface
   * A Surface is an object holding pixels that are being composited to the screen.
   * Every window you see on the screen (a dialog, your full-screen activity, the status bar) has its own surface that it draws in to, 
     and Surface Flinger renders these to the final display in their correct Z-order. 
     
     
     
-##Surface Flinger
+## Surface Flinger
  * surface flinger is compositing the screen using the last buffer, without needing to wait for the application to finish drawing.
 
 
-##Bitmap
+## Bitmap
  * A Bitmap is just an interface to some pixel data. 
  * The pixels may be allocated by Bitmap itself when you are directly creating one, or it may be pointing to pixels it doesn't own such as what internally    happens to hook a Canvas up to a Surface for drawing. (A Bitmap is created and pointed to the current drawing buffer of the Surface.)
 
 
-#NOTES
+# NOTES
 1. A canvas operates on a Bitmap,  
    Surface gives you a Canvas
    Surface > Canvas > Bitmap
