@@ -8,7 +8,20 @@
     application for drawing. The application can draw whatever it wants in the Surface; to the Window Manager it is just an opaque rectangle.
  
  
+ ## Bitmap
+ * A Bitmap is just an interface to some pixel data. 
+ * The pixels may be allocated by Bitmap itself when you are directly creating one, or it may be pointing to pixels      it doesn't own such as what internally    happens to hook a Canvas up to a Surface for drawing. (A Bitmap is          created and pointed to the current drawing buffer of the Surface.)
  
+
+## NDK
+ * The Native Development Kit (NDK) is a set of tools that allows you to use C and C++ code with Android.
+ * That provides platform libraries you can use to manage native activities and access physical device components,      such as sensors and touch input. 
+ 
+ * However, the NDK can be useful for cases in which you need to do one or more of the following:
+    1. Squeeze extra performance out of a device to achieve low latency or run computationally intensive                    applications, such as games or physics simulations.
+    2. Reuse your own or other developers' C or C++ libraries.
+
+
 ## Surface
   * A Surface is an object holding pixels that are being composited to the screen.
   * Every window you see on the screen (a dialog, your full-screen activity, the status bar) has its own surface that it draws in to, 
@@ -20,9 +33,7 @@
  * surface flinger is compositing the screen using the last buffer, without needing to wait for the application to finish drawing.
 
 
-## Bitmap
- * A Bitmap is just an interface to some pixel data. 
- * The pixels may be allocated by Bitmap itself when you are directly creating one, or it may be pointing to pixels it doesn't own such as what internally    happens to hook a Canvas up to a Surface for drawing. (A Bitmap is created and pointed to the current drawing buffer of the Surface.)
+
 
 
 # NOTES
