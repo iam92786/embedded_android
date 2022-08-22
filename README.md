@@ -7,7 +7,11 @@
     An application interacts with the Window Manager to create windows; the Window Manager creates a Surface for each window and gives it to the 
     application for drawing. The application can draw whatever it wants in the Surface; to the Window Manager it is just an opaque rectangle.
  
- 
+ ## am adb command
+  * Using activity manager (am)
+
+
+
  ## Bitmap
  * A Bitmap is just an interface to some pixel data. 
  * The pixels may be allocated by Bitmap itself when you are directly creating one, or it may be pointing to pixels      it doesn't own such as what internally    happens to hook a Canvas up to a Surface for drawing. (A Bitmap is          created and pointed to the current drawing buffer of the Surface.)
@@ -52,6 +56,7 @@ For example,
 
 ## Android System profiling:
  * The Android Profiler tools provide real-time data to help you to understand how your app uses CPU, memory, network, and battery resources.
+
 
 ## z-order
  * The term "Z-order" refers to the order of objects along the Z-axis. In coordinate geometry, X typically refers to the horizontal axis (left to right), Y    to the vertical axis (up and down), and Z refers to the axis perpendicular to the other two (forward or backward).
