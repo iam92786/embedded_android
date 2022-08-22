@@ -11,7 +11,23 @@
  ## Bitmap
  * A Bitmap is just an interface to some pixel data. 
  * The pixels may be allocated by Bitmap itself when you are directly creating one, or it may be pointing to pixels      it doesn't own such as what internally    happens to hook a Canvas up to a Surface for drawing. (A Bitmap is          created and pointed to the current drawing buffer of the Surface.)
+
+
+## monkey adb command
+  Step 1: First get all the package names of the apps installed in your device, by using:
+
+    ```adb shell pm list packages```
+
+  Step 2: You will get all the package names. Copy the one you want to start using ADB.
+
+  Step 3: Add your desired package name in the below command.
+
+    ```adb shell monkey -p 'your package name' -v 1```
+
+For example,
  
+    ```adb shell monkey -p com.estrongs.android.pop -v 500```
+
 
 ## NDK
  * The Native Development Kit (NDK) is a set of tools that allows you to use C and C++ code with Android.
@@ -31,6 +47,7 @@
     
 ## Surface Flinger
  * surface flinger is compositing the screen using the last buffer, without needing to wait for the application to finish drawing.
+
 
 
 ## Android System profiling:
