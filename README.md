@@ -35,11 +35,11 @@ For example,
 
 ## NDK
  * The Native Development Kit (NDK) is a set of tools that allows you to use C and C++ code with Android.
- * That provides platform libraries you can use to manage native activities and access physical device components,      such as sensors and touch input. 
+ * That provides platform libraries you can use to manage native activities and access physical device components,such as sensors and touch input. 
  
  * However, the NDK can be useful for cases in which you need to do one or more of the following:
-    1. Squeeze extra performance out of a device to achieve low latency or run computationally intensive                    applications, such as games or physics simulations.
-    2. Reuse your own or other developers' C or C++ libraries.
+    1. Squeeze extra performance out of a device to achieve low latency or run computationally intensive applications, such as games or physics simulations.
+    3. Reuse your own or other developers' C or C++ libraries.
 
 
 ## Surface
