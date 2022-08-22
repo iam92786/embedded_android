@@ -59,6 +59,12 @@ For example,
  * surface flinger is compositing the screen using the last buffer, without needing to wait for the application to finish drawing.
 
 
+## Screenshot using adb command
+ ``` 
+   $ adb shell
+   shell@ $ screencap /sdcard/screen.png
+   shell@ $ exit
+   $ adb pull /sdcard/screen.png   ```
 
 ## Android System profiling:
  * The Android Profiler tools provide real-time data to help you to understand how your app uses CPU, memory, network, and battery resources.
