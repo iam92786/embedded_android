@@ -33,6 +33,9 @@
  * surface flinger is compositing the screen using the last buffer, without needing to wait for the application to finish drawing.
 
 
+## Android System profiling:
+ * The Android Profiler tools provide real-time data to help you to understand how your app uses CPU, memory, network, and battery resources.
+
 ## z-order
  * The term "Z-order" refers to the order of objects along the Z-axis. In coordinate geometry, X typically refers to the horizontal axis (left to right), Y    to the vertical axis (up and down), and Z refers to the axis perpendicular to the other two (forward or backward).
  * Ref : https://stackoverflow.com/questions/4182486/placing-overlappingz-index-a-view-above-another-view-in-android?noredirect=1&lq=1
