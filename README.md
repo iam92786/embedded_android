@@ -12,7 +12,9 @@
   * We can issue commands with the activity manager (am) tool to perform various system actions, such as start an activity, force-stop a process,             broadcast an intent, modify the device screen properties, and more. While in a shell, the syntax is:
 
   ``` am <command> ```
-
+  
+  
+ * Ref : https://android-doc.github.io/tools/help/shell.html#am
 
 
 
