@@ -26,17 +26,17 @@
 ## monkey adb command
   Step 1: First get all the package names of the apps installed in your device, by using:
 
-    ```adb shell pm list packages```
+    ``` adb shell pm list packages ```
 
   Step 2: You will get all the package names. Copy the one you want to start using ADB.
 
   Step 3: Add your desired package name in the below command.
 
-    ```adb shell monkey -p 'your package name' -v 1```
+    ``` adb shell monkey -p 'your package name' -v 1 ```
 
 For example,
  
-    ```adb shell monkey -p com.estrongs.android.pop -v 500```
+    ``` adb shell monkey -p com.estrongs.android.pop -v 500 ```
 
 
 ## NDK
