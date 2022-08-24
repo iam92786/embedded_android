@@ -2,23 +2,20 @@
 
 1. Compile c program code with statically compile (In Linux-ubuntu native machine)
 ```
-    im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ arm-linux-gnueabihf-gcc -static hello.c -o hello_static
-    
+    im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ arm-linux-gnueabihf-gcc -static hello.c -o hello_static   
 ```
 
 3. check
  ```
     im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ file hello_static 
-
  ```
 
 4. push in to Androide board
  ```
     im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ adb push hello_static /data/local/tmp
-
  ```
 
-11. Run 
+5. Run 
 ```
   im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ adb devices
   im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ adb root
