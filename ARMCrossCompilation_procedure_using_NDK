@@ -1,0 +1,32 @@
+
+//Setting the NDK path 
+
+cd /home/username
+vi ~/.bashrc
+export NDK_PATH=/home/im-rt-lp-1148/Android/Sdk/ndk/21.4.7075529
+export PATH="$PATH:$NDK_PATH"
+source ~/.bashrc
+echo $NDK_PATH
+ndk-build (run this command)
+
+//Creating the Makefles
+ create jni folder and push all the src files and make files into the jni folder.
+ go to jni fodler in command line and run the ndk-build command
+ ndk-build (run this command)
+ 
+ 
+ //Pushing the files into the device
+ 
+adb devices
+adb push <executable> /data/local/tmp
+
+ adb shell
+ cd /data/local/tmp
+ ./executable
+ 
+ //To give Read and write permissions to a file
+ chmod 777 <executable> 
+ 
+
+
+
