@@ -28,7 +28,7 @@
 ```
 
 
-# Step to Cross Compile c programme for Android 
+# Step to Cross Compile c++ programme for Android 
 1. Compile c program code with statically compile (In Linux-ubuntu native machine)
 ```
 im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ arm-linux-gnueabihf-g++ -static hello.cpp -o hello_cpp_static
