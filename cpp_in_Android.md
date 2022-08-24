@@ -15,7 +15,7 @@
     im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ adb push hello_static /data/local/tmp
  ```
 
-5. Run 
+5. Run (in android adb)
 ```
   im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ adb devices
   im-rt-lp-1148@imrtlp1148-Lenovo-V15-G2-ITL-Ua:~/android$ adb root
