@@ -7,23 +7,28 @@
     An application interacts with the Window Manager to create windows; the Window Manager creates a Surface for each window and gives it to the 
     application for drawing. The application can draw whatever it wants in the Surface; to the Window Manager it is just an opaque rectangle.
  
+ 
  ## am adb command
   * Using activity manager (am)
   * We can issue commands with the activity manager (am) tool to perform various system actions, such as start an activity, force-stop a process,             broadcast an intent, modify the device screen properties, and more. While in a shell, the syntax is:
 
-  ``` am <command> ```
-  
+  ``` am <command> 
+  ```
   
  * Ref : https://android-doc.github.io/tools/help/shell.html#am
 
 
-
  ## Bitmap
  * A Bitmap is just an interface to some pixel data. 
- * The pixels may be allocated by Bitmap itself when you are directly creating one, or it may be pointing to pixels      it doesn't own such as what internally    happens to hook a Canvas up to a Surface for drawing. (A Bitmap is          created and pointed to the current drawing buffer of the Surface.)
+ * The pixels may be allocated by Bitmap itself when you are directly creating one, or it may be pointing to pixels. it doesn't own such as what internally    happens to hook a Canvas up to a Surface for drawing. (A Bitmap is created and pointed to the current drawing buffer of the Surface.)
+
+## Fastboot
+ * Fastboot is a tool/protocol for writing data directly to your phone's flash memory. In practical use, it is used to flash images such as recoveries,        bootloaders, and kernels to your Android device.
+ * Fastboot mode is one of the modes on your device where you can flash various images to your phone. You can use this mode to execute various commands        from your computer on your device.
 
 
 ## monkey adb command
+ * To perform repeated work. (here we are going to open a app 1 time using monkey commmand in android adb)
   Step 1: First get all the package names of the apps installed in your device, by using:
 
     ``` adb shell pm list packages ```
