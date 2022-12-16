@@ -58,6 +58,9 @@ For example,
 
 ## Surface
   * A Surface is an object holding pixels that are being composited to the screen.
+  * Surface managed by screen compositor.
+  * A surface is created by or from Consumer of image buffers(such as MediaRecorder, SurfaceTexture, Allocation).
+  * Surface is handed to any Producer (such as CameraDevice, openGL or MediaPlayer). 
   * Every window you see on the screen (a dialog, your full-screen activity, the status bar) has its own surface that it draws in to, 
     and Surface Flinger renders these to the final display in their correct Z-order. 
     
