@@ -1,7 +1,7 @@
 # Embedded_android
 
 ## Android Window
-  * A window is a Rectangular area which has aone view heirarchy.
+  * A window is a Rectangular area which has owne view heirarchy.
   * it has single surafce.
   * A window is basically like you think of a window on the desktop. It has a single Surface in which the contents of the window is rendered. 
     An application interacts with the Window Manager to create windows; the Window Manager creates a Surface for each window and gives it to the 
