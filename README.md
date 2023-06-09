@@ -88,9 +88,11 @@ For example,
 
 
 ## How to Add log into the Android Source code (AOSP)
+```
 * #define LOG_TAG "AudioFlinger"   //tag of the log you can give any name here eg: CAMX, CHIUSECASE etc
 * #define LOG_NDEBUG 0  //it make enable log for this file
 * #include <utils/Log.h>  //headre file
+```
 
 # NOTES
 1. A canvas operates on a Bitmap,  
